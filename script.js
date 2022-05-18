@@ -101,7 +101,7 @@ button.button.addEventListener("click", function(e) {
                 button.button.classList.remove('off');
                 
             } else {
-                button.startTimer(5*1+2, button.countdown);
+                button.startTimer(43*1+2, button.countdown);
                 button.instructions.classList.add('hidden');
                 button.state = true;
                 button.display_value = 1;  
