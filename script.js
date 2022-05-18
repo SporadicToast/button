@@ -71,7 +71,7 @@ class ButtonGame {
             var averageper = (this.display_value / 2617) * 100
             var cal =  this.display_value * 400
             var meter = this.display_value / 100
-            var time = (2617 / 616.2) * this.display_value;
+            var time = ((10.27 * 60) / 2617) * this.display_value;
             document.getElementById("meter").textContent = meter
             document.getElementById("averageper").textContent = averageper.toFixed(3) + "%"
             document.getElementById("cal").textContent = cal
