@@ -1,6 +1,6 @@
 "use strict";
 
-//Button
+//Button 
 
 class ButtonGame {
     state = false;
