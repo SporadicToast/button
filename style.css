@@ -1,0 +1,98 @@
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-shadow: 3px 3px black;
+
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  font-size: 100%;
+  text-align: center;
+  transition: 2s linear all;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+ a {
+   text-shadow: none;
+   color: red;
+ }
+button.main { 
+  border-radius: 50%; 
+  width: 300px;
+  height: 300px;
+  border: none;
+  color: white;
+  font-family: Avenir, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  background: red;
+  text-shadow: 0 3px 1px rgba(122,17,8,.8);
+  box-shadow: 0 8px 0 rgb(183,9,0), 
+    0 15px 20px rgba(0,0,0,.35);
+  text-transform: uppercase;
+  outline: none; 
+  cursor: pointer;
+  text-align: center;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+button span { position: relative; }
+.off { 
+
+  background: grey;
+  text-shadow: 0 3px 1px grey;
+  box-shadow: 0 8px 0 grey, 0 15px 20px rgba(0,0,0,.35); 
+
+}
+/* fix for IE 11 (and IE8+, although the earlier versions are harder to address) stupidly moving the inner button text on click */
+button.main:hover { 
+  padding-top: 3px;
+  transform: translateY(2px);
+  box-shadow: 0 4px 0 rgb(183,0,0),
+    0 8px 6px rgba(0,0,0,.45);
+}
+
+button.main:active { 
+  padding-top: 3px;
+  transform: translateY(5px);
+  box-shadow: 0 4px 0 rgb(183,0,0),
+    0 8px 6px rgba(0,0,0,.45);
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 200%;
+  text-shadow: 30%;
+}
+
+section {
+  transition: 2s linear all;
+}
+
+label {
+  font-weight: bold;
+  font-size: 150%;
+}
+.hidden {
+  display: none;
+}
+.major {
+  font-size: 1000%;
+}
+
+.timer {
+  font-size: 400%;
+}
+
+.hdlt {
+  font-size: 300%;
+}

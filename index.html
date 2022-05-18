@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-height, initial-scale = 1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel='stylesheet' href='style.css' />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Tapping in Perspective</title>
+</head>
+
+<body>
+    <main>
+        
+        <section class="button-viewport">
+            <div class='center' data-element="container" data-container="chassis">
+                <h1 data-element="text" data-text="header">Press the button.</h1>
+                <p class='instructions' data-element="text" data-text="instructions">The timer counts down after the first press. <br> If the button does not count up when clicked, please wait for a bit as it loads values!</p> <br><br>
+                <button class="off main" id="mainbtn" data-element="button" data-button="main"><span>PRESS</span></button>
+                <h2 id='timer' class="timer" data-element="text" data-text="timer">00:45</h2>
+            <p class='copyright'>© 2022, <a href='https://github.com/SporadicToast'>Marc Gabriel C. Macaraeg</a> for ARTS 1 - UPD</p>
+            </div>
+            
+        </section>
+        <section class="result-screen">
+            <div class="center hidden" data-element="container" data-container="results">
+                <h1>Tapping in Perspective</h1>
+                Your score:<br>
+                <label id="globalcount3" class="stat major">XX</label><br>
+                You have clicked the button <label id="globalcount" class="stat">100</label> times. <br>
+                Did you know that the average person touches their touch screens <label>2,617</label> a day? <br>
+                You have done <label class="stat" id="averageper">30%</label> of that amount in the span of 45 seconds. <br><br>
+
+                Tapping once takes 400 microjoules of calories. So for that amount of taps you exerted <label class="stat" id="cal">213</label> mircojoules of calories. <br>
+                Assuming a distance of 1cm per tap, your fingers have traveled <label id="globalcount2" class="stat">100</label>cm, around <label id="meter" class="stat">100</label> meters of travel.<br><br>
+
+                In the Philippines, people spend an average of 10.27 hours on their devices. <br> In average, for you to tap that many times in an average day would take <label id="time" class="stat">100</label> minutes. <br><br>
+                
+                The <label>COVID-19</label> pandemic has caused us to rely on our phones for respite during these harsh times. <br> However, <label> we may be spending more time than we should online.</label> <br>
+                
+                How much of those taps you make in a day are productive taps? <br><i>Well, of course, the taps you did earlier does not count.</i><br><br> If you are not doing anything productive in front of your devices or computer - you <br><label>may simply be just wasting time and energy idling round. </label><br><br>
+
+                <label class="hdlt">Being infront of devices does not equal productivity.</label><br><br>
+
+                If you find yourself idling in front of a computer, playing a tapping game (like this!). <br>It might be time to <label>stand up, stretch, excersise, drink a glass of water.</label>
+                
+                
+
+                <br><br><button id="refresh">Try Again?</button>
+            </div>
+            
+        </section>
+    </main>
+    <script src='script.js'></script>
+</body>
+
+</html>
