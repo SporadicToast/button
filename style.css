@@ -96,3 +96,7 @@ label {
 .hdlt {
   font-size: 300%;
 }
+* {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
